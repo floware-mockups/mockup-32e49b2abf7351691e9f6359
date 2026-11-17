@@ -1,0 +1,179 @@
+{
+  "title": "Gestione inventario arredi scolastici",
+  "description": "Prototipo per consultare e aggiornare l’inventario degli arredi di una scuola immaginaria, con filtri per aula e stato di conservazione.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo inventario",
+      "description": "Panoramica delle dotazioni e delle condizioni degli arredi.",
+      "metrics": [
+        {
+          "label": "Arredi registrati",
+          "value": "48"
+        },
+        {
+          "label": "Quantità complessiva",
+          "value": "126"
+        },
+        {
+          "label": "In buono stato",
+          "value": "82"
+        },
+        {
+          "label": "Da controllare",
+          "value": "29"
+        },
+        {
+          "label": "Da riparare",
+          "value": "15"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Tipologia",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banchi",
+          "18",
+          "Buono"
+        ],
+        [
+          "Aula Lumo",
+          "Sedie",
+          "20",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Armadi",
+          "2",
+          "Da controllare"
+        ],
+        [
+          "Aula Nubi",
+          "Tavoli",
+          "6",
+          "Da riparare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "arredi",
+      "title": "Elenco arredi",
+      "description": "Tabella filtrabile per aula, tipologia e stato di conservazione. La ricerca e i filtri sono separati dal form di inserimento.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Tipologia",
+        "Quantità",
+        "Stato di conservazione",
+        "Codice inventario",
+        "Ultimo controllo"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banchi",
+          "18",
+          "Buono",
+          "INV-LU-014",
+          "12/09/2025"
+        ],
+        [
+          "Aula Lumo",
+          "Sedie",
+          "20",
+          "Buono",
+          "INV-LU-015",
+          "12/09/2025"
+        ],
+        [
+          "Aula Lumo",
+          "Lavagna",
+          "1",
+          "Da controllare",
+          "INV-LU-016",
+          "10/09/2025"
+        ],
+        [
+          "Aula Vela",
+          "Banchi",
+          "16",
+          "Buono",
+          "INV-VE-021",
+          "11/09/2025"
+        ],
+        [
+          "Aula Vela",
+          "Sedie",
+          "18",
+          "Da controllare",
+          "INV-VE-022",
+          "11/09/2025"
+        ],
+        [
+          "Aula Vela",
+          "Armadi",
+          "2",
+          "Da controllare",
+          "INV-VE-023",
+          "09/09/2025"
+        ],
+        [
+          "Aula Nubi",
+          "Tavoli",
+          "6",
+          "Da riparare",
+          "INV-NU-031",
+          "08/09/2025"
+        ],
+        [
+          "Aula Nubi",
+          "Sedie",
+          "12",
+          "Buono",
+          "INV-NU-032",
+          "08/09/2025"
+        ],
+        [
+          "Aula Nubi",
+          "Scaffali",
+          "3",
+          "Buono",
+          "INV-NU-033",
+          "07/09/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-arredo",
+      "title": "Registra un arredo",
+      "description": "Inserimento di una dotazione nell’inventario scolastico.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Tipologia",
+        "Quantità",
+        "Stato di conservazione",
+        "Codice inventario",
+        "Ultimo controllo"
+      ],
+      "rows": [],
+      "form": [
+        "Aula",
+        "Tipologia",
+        "Quantità",
+        "Stato di conservazione",
+        "Codice inventario",
+        "Ultimo controllo"
+      ]
+    }
+  ]
+}
